@@ -1,0 +1,19 @@
+{
+    "name": "kuvardin/firebase",
+    "description": "PHP SDK for Firebase FCM HTTP v1 API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Maxim Kuvardin",
+            "email": "maxim@kuvard.in"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kuvardin\\Firebase\\": "src"
+        }
+    }
+}
